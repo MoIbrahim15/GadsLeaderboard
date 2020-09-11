@@ -9,7 +9,7 @@
 - Repository pattern (NetworkBoundResource)
 
 
-![Splash Screen](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshoots/splash.png)
+![Splash Screen](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshots/splash.png)
 
 
 Discussions
