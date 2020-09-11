@@ -9,7 +9,9 @@
 - Repository pattern (NetworkBoundResource)
 
 
-![Splash Screen](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshots/splash.png)
+![Splash Screen](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshots/splash_framed.png) ![Top Learner Screen](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshots/top_learner_framed.png)
+![Top Skills Learners Screen](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshots/top_skills_framed.png) ![Submission Screen](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshots/submission_framed.png)
+![Confirmation Dialog](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshots/confirmation_framed.png)![Success Dialog](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshots/success_framed.png) ![Failure Dialog](https://github.com/MoIbrahim15/GadsLeaderboard/blob/master/screenshots/failure_framed.png)
 
 
 Discussions
