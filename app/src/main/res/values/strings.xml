@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AAD</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="submit">Submit</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email Address</string>
+    <string name="project">Project on GITHUB (link)</string>
+    <string name="are_you_sure">Are you sure ?</string>
+    <string name="yes">Yes</string>
+    <string name="submission_failure">Submission not successful</string>
+    <string name="submission_success">Submission Successful</string>
+</resources>
