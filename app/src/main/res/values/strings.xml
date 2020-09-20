@@ -11,4 +11,7 @@
     <string name="yes">Yes</string>
     <string name="submission_failure">Submission not successful</string>
     <string name="submission_success">Submission Successful</string>
+
+    <string name="learning_hours">%s1 Learning Hours, %s2</string>
+    <string name="skill_hours">%s1 Skill IQ Score, %s2</string>
 </resources>
