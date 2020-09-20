@@ -8,6 +8,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.mo.aad.R
 import com.mo.aad.extensions.hide
 import com.mo.aad.extensions.show
+import com.mo.aad.features.main.data.SkillsScoreUser
+import com.mo.aad.features.main.ui.BaseAdapter
 import com.mo.aad.features.main.ui.learning.LearningAdapter
 import com.mo.aad.features.main.viewmodel.MainViewModel
 import com.mo.aad.network.Status
@@ -41,7 +43,7 @@ class SkillIQFragment : Fragment(R.layout.fragment_recycler) {
                     it.data?.let { items ->
                         recyclerView.show()
                         recyclerView.layoutManager = LinearLayoutManager(activity)
-                        recyclerView.adapter = SkillIQAdapter(items = items)
+                        recyclerView.adapter = BaseAdapter(items)
                     }
                 }
                 Status.ERROR -> {
