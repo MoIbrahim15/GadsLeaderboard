@@ -14,6 +14,7 @@ import com.mo.aad.features.main.data.SkillsScoreUser
 import com.mo.aad.features.main.ui.learning.LearningViewHolder
 import com.mo.aad.features.main.ui.skilliq.SkillIQViewHolder
 import kotlinx.android.synthetic.main.layout_item.view.*
+import java.lang.IllegalArgumentException
 
 class BaseAdapter<T>(list: List<T>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
@@ -25,7 +26,7 @@ class BaseAdapter<T>(list: List<T>) : RecyclerView.Adapter<RecyclerView.ViewHold
 
     /**
      * instantiate BaseAdapter as singleton instance
-     * and used this method when updating data.
+     * and use this method when updating data.
      */
     fun updateList(list: List<T>) {
         asyncListDiffer.submitList(list)
@@ -65,7 +66,7 @@ class DiffUtilComparator<T> : DiffUtil.ItemCallback<T>() {
                 return (oldItem as SkillsScoreUser).badgeUrl == (newItem as SkillsScoreUser).badgeUrl
             }
         }
-        throw ClassCastException()
+        throw IllegalArgumentException()
     }
 
     override fun areContentsTheSame(oldItem: T, newItem: T): Boolean {
@@ -77,6 +78,6 @@ class DiffUtilComparator<T> : DiffUtil.ItemCallback<T>() {
                 return (oldItem as SkillsScoreUser) == (newItem as SkillsScoreUser)
             }
         }
-        throw ClassCastException()
+        throw IllegalArgumentException()
     }
 }
